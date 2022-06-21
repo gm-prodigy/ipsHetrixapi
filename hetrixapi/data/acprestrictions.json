@@ -1,0 +1,13 @@
+{
+    "system": {
+        "settings": {
+            "settings_manage": "settings_manage"
+        }
+    },
+    "hetrixapi": {
+        "settings": {
+            "settings_manage": "settings_manage",
+            "hetrixapi_veiw_key": "hetrixapi_veiw_key"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "normal": {
+        "added": [
+            "hetrixapi_setAnnouncement_message",
+            "hetrixapi_setAnnouncement_message_desc"
+        ],
+        "edited": [
+            "hetrixapi_setStatus_desc"
+        ],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

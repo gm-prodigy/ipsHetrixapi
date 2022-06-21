@@ -1,0 +1,42 @@
+[
+    {
+        "key": "hetrixapi_cpu_load_stats",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_cpu_load_status",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_cron",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_globalMessage_content_2",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_globalMessage_title",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_high_load_show",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_key",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_ram_load_status",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_setAnnouncement_message",
+        "default": ""
+    },
+    {
+        "key": "hetrixapi_setStatus",
+        "default": "Offline"
+    }
+]

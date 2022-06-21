@@ -1,0 +1,25 @@
+<ips:template parameters="" />
+{{if settings.hetrixapi_globalMessage_content_2 AND $results = json_decode( \IPS\Settings::i()->hetrixapi_globalMessage_content_2, TRUE ) And \count($results)}}
+<div class="cAnnouncementsContent">
+
+    <div class="cAnnouncementContentTop ipsAnnouncement ipsMessage_error ipsType_center">
+
+        <a href={url="app=core&module=system&section=plugins&do=showStatus" csrf="1"} data-ipsdialog="" data-ipsdialog-title='{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}'>{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}</a>
+
+    </div>
+
+</div>
+{{endif}}
+
+
+{{if settings.hetrixapi_globalMessage_content_2 AND $results = json_decode( \IPS\Settings::i()->hetrixapi_globalMessage_content_2, TRUE ) And \count($results)}}
+<div class="cAnnouncementsContent">
+
+    <div class="cAnnouncementContentTop ipsAnnouncement ipsMessage_error ipsType_center">
+
+        <a href={url="app=core&module=system&section=plugins&do=getStats" csrf="1"} data-ipsdialog="" data-ipsdialog-title='{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}'>{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}</a>
+
+    </div>
+
+</div>
+{{endif}}

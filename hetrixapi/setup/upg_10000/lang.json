@@ -1,0 +1,24 @@
+{
+    "normal": {
+        "added": [
+            "__app_hetrixapi",
+            "menu__hetrixapi_hetrixapi_settings",
+            "hetrixapi_settings",
+            "menu__hetrixapi_hetrixapi",
+            "menu_hetrixapi_settings_title",
+            "hetrixapi_key",
+            "hetrixapi_cron",
+            "hetrixapi_globalMessage_title",
+            "hetrixapi_setStatus"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [
+            "hetrixapi_globalMessage_content"
+        ],
+        "edited": [],
+        "removed": []
+    }
+}

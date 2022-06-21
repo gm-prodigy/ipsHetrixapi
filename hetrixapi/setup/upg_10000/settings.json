@@ -1,0 +1,11 @@
+{
+    "added": {
+        "1": "hetrixapi_cron",
+        "2": "hetrixapi_globalMessage_content_2",
+        "3": "hetrixapi_key",
+        "5": "hetrixapi_globalMessage_title",
+        "6": "hetrixapi_setStatus"
+    },
+    "edited": [],
+    "removed": []
+}

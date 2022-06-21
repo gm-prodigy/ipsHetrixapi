@@ -1,0 +1,11 @@
+{
+    "hetrixapi": {
+        "settings": {
+            "tab": "core",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage",
+            "subcontrollers": ""
+        }
+    }
+}

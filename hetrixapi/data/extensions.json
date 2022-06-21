@@ -1,0 +1,10 @@
+{
+    "core": {
+        "EditorLocations": {
+            "editor": "IPS\\hetrixapi\\extensions\\core\\EditorLocations\\editor"
+        },
+        "Queue": {
+            "tasks": "IPS\\hetrixapi\\extensions\\core\\Queue\\tasks"
+        }
+    }
+}

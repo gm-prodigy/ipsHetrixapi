@@ -1,0 +1,20 @@
+<ips:template parameters=""/>
+        {{if settings.hetrixapi_globalMessage_content_2 AND $results = json_decode( \IPS\Settings::i()->hetrixapi_globalMessage_content_2, TRUE ) And \count($results)}}
+
+
+
+
+<div class="ipsBox ipsPad">
+    <div class='ipsType_richText ipsType_normal'>{expression="\IPS\Settings::i()->hetrixapi_setAnnouncement_message" raw="true"}</div>
+</div>
+
+
+
+            {{foreach $results as $i}}
+                <li class='ipsBox ipsPad ipsType_reset ipsWidget_title '>
+                    <a href="https://status.opendevcommunity.com/report/uptime/{$i['ID']}/" target="_blank">
+                        {$i['Name']}
+                    </a>
+                </li>
+            {{endforeach}}
+        {{endif}}

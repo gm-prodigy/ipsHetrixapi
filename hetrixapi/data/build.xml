@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+ <module key="admin/hetrixapi"><![CDATA[{"default_controller":"","protected":false,"default":null}]]></module>
+ <task frequency="P1Y0M0DT0H0M0S">HetrixApiCron</task>
+ <setting key="hetrixapi_cpu_load_status"><![CDATA[{"key":"hetrixapi_cpu_load_status","default":""}]]></setting>
+ <setting key="hetrixapi_cron"><![CDATA[{"key":"hetrixapi_cron","default":""}]]></setting>
+ <setting key="hetrixapi_globalMessage_content_2"><![CDATA[{"key":"hetrixapi_globalMessage_content_2","default":""}]]></setting>
+ <setting key="hetrixapi_globalMessage_title"><![CDATA[{"key":"hetrixapi_globalMessage_title","default":""}]]></setting>
+ <setting key="hetrixapi_key"><![CDATA[{"key":"hetrixapi_key","default":""}]]></setting>
+ <setting key="hetrixapi_max_cpu_load_number"><![CDATA[{"key":"hetrixapi_max_cpu_load_number","default":""}]]></setting>
+ <setting key="hetrixapi_max_ram_load_number"><![CDATA[{"key":"hetrixapi_max_ram_load_number","default":""}]]></setting>
+ <setting key="hetrixapi_ram_load_status"><![CDATA[{"key":"hetrixapi_ram_load_status","default":""}]]></setting>
+ <setting key="hetrixapi_setAnnouncement_message"><![CDATA[{"key":"hetrixapi_setAnnouncement_message","default":""}]]></setting>
+ <setting key="hetrixapi_setStatus"><![CDATA[{"key":"hetrixapi_setStatus","default":"Offline"}]]></setting>
+ <hook key="announcement"><![CDATA[{"type":"S","class":"\\IPS\\Theme\\class_core_front_global"}]]></hook>
+ <hook key="content"><![CDATA[{"type":"C","class":"\\IPS\\core\\modules\\front\\system\\plugins"}]]></hook>
+</build>

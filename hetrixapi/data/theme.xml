@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="Default" author_name="Invision Power Services, Inc" author_url="https://www.invisioncommunity.com">
+ <template template_group="hooks" template_name="content" template_data="" template_location="front" template_app="hetrixapi"><![CDATA[        {{if settings.hetrixapi_globalMessage_content_2 AND $results = json_decode( \IPS\Settings::i()->hetrixapi_globalMessage_content_2, TRUE ) And \count($results)}}
+
+
+
+
+<div class="ipsBox ipsPad">
+    <div class='ipsType_richText ipsType_normal'>{expression="\IPS\Settings::i()->hetrixapi_setAnnouncement_message" raw="true"}</div>
+</div>
+
+
+
+            {{foreach $results as $i}}
+                <li class='ipsBox ipsPad ipsType_reset ipsWidget_title '>
+                    <a href="https://status.opendevcommunity.com/report/uptime/{$i['ID']}/" target="_blank">
+                        {$i['Name']}
+                    </a>
+                </li>
+            {{endforeach}}
+        {{endif}}
+
+]]></template>
+ <template template_group="hooks" template_name="globalMessage" template_data="" template_location="front" template_app="hetrixapi"><![CDATA[{{if settings.hetrixapi_globalMessage_content_2 AND $results = json_decode( \IPS\Settings::i()->hetrixapi_globalMessage_content_2, TRUE ) And \count($results)}}
+<div class="cAnnouncementsContent">
+
+    <div class="cAnnouncementContentTop ipsAnnouncement ipsMessage_error ipsType_center">
+
+        <a href={url="app=core&module=system&section=plugins&do=showStatus" csrf="1"} data-ipsdialog="" data-ipsdialog-title='{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}'>{expression="\IPS\Settings::i()->hetrixapi_globalMessage_title"}</a>
+
+    </div>
+
+</div>
+{{endif}}]]></template>
+</theme>

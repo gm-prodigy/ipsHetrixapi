@@ -1,0 +1,13 @@
+{
+    "added": [
+        "hetrixapi_cpu_load_status",
+        "hetrixapi_max_cpu_load_number",
+        "hetrixapi_max_ram_load_number",
+        "hetrixapi_ram_load_status",
+        "hetrixapi_setAnnouncement_message"
+    ],
+    "edited": [],
+    "removed": [
+        "hetrixapi_setStatus_desc"
+    ]
+}

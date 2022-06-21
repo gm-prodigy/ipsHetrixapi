@@ -1,0 +1,10 @@
+{
+    "announcement": {
+        "type": "S",
+        "class": "\\IPS\\Theme\\class_core_front_global"
+    },
+    "content": {
+        "type": "C",
+        "class": "\\IPS\\core\\modules\\front\\system\\plugins"
+    }
+}

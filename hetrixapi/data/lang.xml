@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="hetrixapi" version="10004">
+  <word key="__app_hetrixapi" js="0">Hetrixtools API Monitor</word>
+  <word key="menu__hetrixapi_hetrixapi_settings" js="0">Hetrixtools Settings</word>
+  <word key="hetrixapi_settings" js="0">Hetrixtools Settings</word>
+  <word key="menu__hetrixapi_hetrixapi" js="0">Hetrix Tools</word>
+  <word key="menu_hetrixapi_settings_title" js="0">Hetrixtools API Settings</word>
+  <word key="hetrixapi_key" js="0">Hetrixtools API Key</word>
+  <word key="hetrixapi_cron" js="0">Cron Task</word>
+  <word key="hetrixapi_globalMessage_title" js="0">Announcement Title</word>
+  <word key="hetrixapi_setStatus" js="0">Change what status to display</word>
+  <word key="hetrixapi_setAnnouncement_message" js="0">Description</word>
+  <word key="hetrixapi_setAnnouncement_message_desc" js="0">Adds a description under the title on the embed.</word>
+  <word key="hetrixapi_setStatus_desc" js="0">Set to online mode to preview showing online servers instead, set offline for default uses.</word>
+  <word key="hetrixapi_globalMessage_content" js="1">Message</word>
+ </app>
+</language>
